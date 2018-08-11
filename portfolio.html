@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<style>
+    /* General */
+body {
+    background-image: url(assets/images/light-grey-terrazzo.png);
+}
+
+.container {
+    background: #ffffff;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    height: auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+}
+
+.footer-container {
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
+}
+
+    /* Navbar */
+
+.nav-container {
+    border: 1px solid #777777;
+}
+    
+.navbar-brand {
+    width: 250px;
+    height: 100%;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: white;
+    text-align: center;
+    background: #4aaaa5;
+    margin-left: 180px;
+}
+
+.navbar-nav {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-right: 175px;
+}
+
+#portborder {
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+}
+
+/* Portfolio */
+
+.card-title {
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+}
+
+a {
+    color: #ffffff;
+}
+
+</style>
+
+</head>
+<body>
+    <!--Navbar Start-->
+    <div class="nav-container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">Mike Jaime</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="index.html">About</a>
+            <a class="nav-item nav-link" id="portborder" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--Navbar End-->
+
+    <!--Content Start-->
+    <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="page-header">
+                        <h1>Portfolio</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck">
+                    
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/pexels-photo.jpg" alt="Phone User">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">Hangman</a></h5>
+                      </div>
+                    </div>
+                    
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/winter-mountains-elena-elisseeva.jpg" alt="Mountains">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">RPG Game</a></h5>
+                      </div>
+                    </div>
+                    
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/Phoenix_AZ.jpg" alt="Downtown Phoenix, AZ">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">Trivia Game</a></h5>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/FB-Logo.png" alt="University Logo">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">NMSU Info Widget</a></h5>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/ipad-tablet-technology-touch.jpg" alt="iPad User">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="#">Rock Paper Scissors</a></h5>
+                      </div>
+                    </div>
+                  </div>
+
+        </div>
+        <!--Content End-->
+
+    <!--Footer Start-->
+    <footer class="footer">
+        <div class="footer-container">
+          <span class="text-muted">Copyright&copy;</span>
+        </div>
+      </footer>
+    <!--Footer End-->
+    </body>
+    </html>
